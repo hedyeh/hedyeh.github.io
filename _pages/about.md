@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<h2>Hey There!</h2>
+<h2>Hi there!</h2>
 
 Currently, being the Célèbre of HAP and a Godess living in Fairfax, VA,
 
