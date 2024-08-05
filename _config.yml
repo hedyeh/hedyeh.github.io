@@ -12,6 +12,10 @@ locale:
   last_name: مباهی
 contact_note: #>
   #You can even add a little note about which of these is the best way to reach you.
+mailing_address: >
+  <p>4400 University Drive<br>
+  Suite 4413<br>
+  Fairfax, VA 22030</p>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal website of the (almighty) Godess of GMU/CPH/HAP/DSHI/MLi.
 footer_text: >
