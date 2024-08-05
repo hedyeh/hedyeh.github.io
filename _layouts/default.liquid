@@ -16,9 +16,12 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {{ page.css_class }}">
+    {%- if page.no_header -%}
+    {%- else -%}
     <!-- Header -->
     {% include header.liquid %}
+    {%- endif -%}
 
     <!-- Content -->
     <div class="container mt-5" role="main">
@@ -47,8 +50,11 @@
       {% endif %}
     </div>
 
+    {%- if page.no_footer -%}
+    {%- else -%}  
     <!-- Footer -->
     {% include footer.liquid %}
+    {%- endif -%}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
