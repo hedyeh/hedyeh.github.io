@@ -11,7 +11,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1
-                                  rounded' %}
+                                                rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
@@ -46,7 +46,25 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div style="max-width: 600px; ">
+      {{ content }}
+    </div>
+
+    <!-- Social -->
+    <div class="social">
+      <h2>reach</h2>
+      {% if page.social %}
+        <div class="contact-icons">
+          {% include social.liquid %}
+        </div>
+      {% endif %}
+      <div class="contact-note">
+        {{ site.contact_note }}
+      </div>
+      <div class="mail address">
+        {{ page.profile.address }}
+      </div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
