@@ -11,6 +11,9 @@ locale:
   middle_name: 
   last_name: مباهی
 email: 
+mailing_address: >
+  <p>4400 University Drive</p>
+  <p>Fairfax, VA 22030</p>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal website of the (almighty) Godess of GMU/CPH/HAP/DSHI/MLi.
 footer_text: >
