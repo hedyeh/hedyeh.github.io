@@ -2,18 +2,6 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -32,6 +20,25 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+
+        <header class="post-header">
+          <h1 class="post-title text-center">
+            {% if site.title == 'blank' %}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+          <hr width="20%">
+          <h2 class="text-center" style="font-family: parastoo_web, 'Roboto', sans-serif; font-size: 1.5rem">
+            <span class="font-weight-bold">{{ site.locale.first_name }}</span> {{ site.locale.middle_name }} {{ site.locale.last_name }}
+          </h2>
+          <hr width="20%">
+          <p class="desc text-center">{{ page.subtitle }}</p>
+          <hr width="20%">
+        </header>
+
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}

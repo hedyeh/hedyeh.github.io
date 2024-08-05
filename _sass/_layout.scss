@@ -40,11 +40,26 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+.desc, .desc a {
+  color: var(--global-text-color-light) !important;
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+
+.publications ol.bibliography li .title {
+  font-family: parastoo_web, "Roboto", sans-serif;
+}
+
+.publications .btn {
+  text-transform: none !important;
+}
+.publications .book .title {
+  text-align: right;
+}
 
 /*****************************************************************************
 * Projects
