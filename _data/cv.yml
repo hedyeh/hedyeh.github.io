@@ -39,9 +39,7 @@
       institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: Department of Health Administration and Policy
       year: Spring ’19
-      items:
-        - Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a>.
-        - Material preparation for <a href="https://catalog.gmu.edu/courses/hap/#720" target="_blank">HAP 720 — Health Data Integration</a>.
+      maindescription: Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a> and Material preparation for <a href="https://catalog.gmu.edu/courses/hap/#720" target="_blank">HAP 720 — Health Data Integration</a>.
 
 - title: Technical Knowledge / Skills
   type: nested_list
