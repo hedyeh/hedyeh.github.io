@@ -1,4 +1,4 @@
-- title: General Information
+- title: Personal info
   type: map
   contents:
     - name: Full Name
@@ -9,44 +9,105 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Health Services Research - Knowledge Discovery and Health Informatics
+    - title: <abbr title="Doctor of Philosophy">PhD</abbr> in Health Services Research - Knowledge Discovery and Health Informatics
       institution: George Mason University, VA, USA
-      year: 2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      year: 2018 - 2024
+      description:
+        - "Academic advisor: Dr. Janusz Wojtusiak"
 
-    - title: Master of Science in Health Informatics
+    - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
       institution: George Mason University, VA, USA
-      year: 2018
+      year: 2016 - 2018
 
-    - title: Bachelor of Arts in Italian Language and Literature
+    - title: <abbr title="Bachelor of Arts">BA</abbr> in Italian Language and Literature
       institution:  University of Tehran, Iran
 
 - title: Experience
   type: time_table
   contents:
-    - title: Linux Server Administrator
+    - title: System and Data Administrator
       institution: Department of Health Administration and Policy, George Mason University
-      year: 2017 - Now
-      description:
+      year: 2016 - Now
+      items:
         - RedHat Enterprise Linux (RHEL) and CentOS
         - Virtualization
+    - title: Graduate Research Assistant
+      institution: Department of Health Administration and Policy, George Mason University
+      year: 2016 - 2024
+    - title: Teaching
+      institution: Department of Health Administration and Policy, George Mason University
+      year: Spring 2019
+      items:
+        - Selected sections of <i>HAP 436 — Electronic Health Record Configuration and Data Analysis</i> course.
+        - Material preparation for <i>HAP 720 — Health Data Integration"</i> course.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
+- title: Technical Knowledge / Skills
+  type: nested_list
+  contents:
+    - title: Machine Learning (ML) and Data Science
+      items:
+        - Scikit-learn
+        - Pandas
+        - Jupyter
+        - Anaconda
+    - title: Database Management
+      items:
+        - Postgres
+        - MySQL/MariaDB
+        - SQL Server
+    - title: Data visualization
+      items:
+        - Matplotlib
+        - Seaborn
+    - title: Programming languages
+      items:
+        - Python
+        - SQL
+        - Bash
+    - title: Operating systems
+      items:
+        - Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
+        - Windows
+    - title: Health informatics
+      items:
+        - HL7 Health Information Exchange (HIE) standards
+        - Electronic Health Records (EHR) systems
+    - title: Research
+      items:
+        - Survey analysis
+        - Scientific/Technical writing and publication
+        - Conference presentation
+        - Zotero
+    - title: Online learning
+      items:
+        - Blackboard Learn
+    - title: Computer Driving
+      items:
+        - Microsoft Office
+        - Google Drive
+        - Git version control system
+
+- title: Soft Skills
+  type: list
+  contents:
+    - Team Collaboration
+    - Mentorship
+    - Adaptability
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Health Services Research for Scholarly Excellence and Impact Award
+      year: April 2024
+      Description: by George Mason University, VA, USA
+
+- title: Languages
+  type: list
+  contents:
+    - Persian (Native)
+    - English (Advanced proficiency)
+    - German (Intermediate proficiency)
+    - Italian (Basic proficiency)
 
 # - title: Academic Interests
 #   type: nested_list
