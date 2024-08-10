@@ -13,7 +13,7 @@
       institution: George Mason University, VA, USA
       department: College of Public Health
       year: 2018 - 2024
-      description: "Academic advisor: Dr. Janusz Wojtusiak"
+      maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
       institution: George Mason University, VA, USA
@@ -71,10 +71,10 @@
         - Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
         - Microsoft Windows
     - title: Server Management
-        items:
-          - Virtualization – QEMU/KVM
-          - Networking & Firewall
-          - Web server – Apache httpd
+      items:
+        - Virtualization – QEMU/KVM
+        - Networking & Firewall
+        - Web server – Apache httpd
     - title: Health informatics
       items:
         - HL7 Health Information Exchange (HIE) standards
