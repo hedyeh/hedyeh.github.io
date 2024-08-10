@@ -10,13 +10,13 @@
   type: time_table
   contents:
     - title: <abbr title="Doctor of Philosophy">PhD</abbr> in Health Services Research - Knowledge Discovery and Health Informatics
-      institution: George Mason University, VA, USA
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: College of Public Health
       year: 2018 - 2024
       maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
-      institution: George Mason University, VA, USA
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: College of Health and Human Services
       year: 2016 - 2018
 
@@ -70,7 +70,7 @@
         - Virtualization – QEMU/KVM
         - Networking & Firewall
         - Web server – Apache httpd
-        - 'Programming Environments: Jupyter server, R, Stata, Python'
+        - 'Programming Environments – Jupyter server, R, Stata, Python'
     - title: Database Management
       items:
         - Postgres
@@ -108,7 +108,7 @@
   contents:
     - title: Health Services Research for Scholarly Excellence and Impact Award
       year: Apr ’24
-      Description: by George Mason University, VA, USA
+      Description: by George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
 
 - title: Languages
   type: list
