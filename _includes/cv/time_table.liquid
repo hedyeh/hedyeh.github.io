@@ -4,7 +4,14 @@
       <div class="row">
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0" style="flex: none; max-width: none;">
           {% if content.title %}
-            <h6 class="title font-weight-bold" style="padding-right: 5rem;">{{ content.title }}</h6>
+            <h6 class="title font-weight-bold">
+              {{ content.title }}
+              {% if content.year %}
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px; float: right; top: 0.1rem;">
+                {{- content.year -}}
+              </span>
+              {% endif %}
+            </h6>
           {% endif %}
           {% if content.department or content.institution %}
             <table class="table-cv ml-1 institution">
@@ -91,13 +98,13 @@
           <div class="col-xs-2 cl-sm-2 col-md-2 mt-2 text-center" style="width: 75px; position: absolute; right: 0;">
             <table class="table-cv" style="position: absolute; right: 0; top: -0.5rem;">
               <tbody>
-                <tr>
+                <!--tr>
                   <td>
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
                       {{- content.year -}}
                     </span>
                   </td>
-                </tr>
+                </tr-->
                 {% if content.location %}
                   <tr>
                     <td>
