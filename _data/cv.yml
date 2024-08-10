@@ -13,7 +13,7 @@
       institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: College of Public Health
       year: 2018 - 2024
-      maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
+      description: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
       institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
@@ -28,6 +28,7 @@
   type: time_table
   contents:
     - title: System and Data Administrator
+<<<<<<< HEAD
       institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: Department of Health Administration and Policy
       year: 2016 - Now
@@ -38,6 +39,15 @@
     - title: Teaching
       institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
       department: Department of Health Administration and Policy
+=======
+      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+      year: 2016 - Now
+    - title: Graduate Research Assistant
+      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+      year: 2016 - 2024
+    - title: Teaching
+      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+>>>>>>> a7bee850 (Tune CV data)
       year: Spring ’19
       items:
         - Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a>.
@@ -61,8 +71,9 @@
         - Python
         - SQL
         - Bash
-    - title: Operating systems
+    - title: Operating systems & Server Management
       items:
+<<<<<<< HEAD
         - Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
         - Microsoft Windows
     - title: Server Management
@@ -76,6 +87,14 @@
         - Postgres
         - MySQL/MariaDB
         - SQL Server
+=======
+        - title: Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
+          items:
+            - Apache, PHP
+            - "Virtualization: QEMU/KVM"
+            - Networking & Firewall
+        - title: Microsoft Windows
+>>>>>>> a7bee850 (Tune CV data)
     - title: Health informatics
       items:
         - HL7 Health Information Exchange (HIE) standards
@@ -108,7 +127,11 @@
   contents:
     - title: Health Services Research for Scholarly Excellence and Impact Award
       year: Apr ’24
+<<<<<<< HEAD
       Description: by George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+=======
+      Description: by George Mason University, VA, USA
+>>>>>>> a7bee850 (Tune CV data)
 
 - title: Languages
   type: list
