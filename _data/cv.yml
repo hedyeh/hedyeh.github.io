@@ -28,20 +28,20 @@
   type: time_table
   contents:
     - title: System and Data Administrator
-      institution: George Mason University, VA, USA
-      department: Deptartment of Health Administration and Policy
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      department: Department of Health Administration and Policy
       year: 2016 - Now
     - title: Graduate Research Assistant
-      institution: George Mason University, VA, USA
-      department: Deptartment of Health Administration and Policy
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      department: Department of Health Administration and Policy
       year: 2016 - 2024
     - title: Teaching
-      institution: George Mason University, VA, USA
-      department: Deptartment of Health Administration and Policy
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      department: Department of Health Administration and Policy
       year: Spring ’19
       items:
-        - Selected sections of <i>HAP 436 — Electronic Health Record Configuration and Data Analysis</i> course.
-        - Material preparation for <i>HAP 720 — Health Data Integration"</i> course.
+        - Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a>.
+        - Material preparation for <a href="https://catalog.gmu.edu/courses/hap/#720" target="_blank">HAP 720 — Health Data Integration</a>.
 
 - title: Technical Knowledge / Skills
   type: nested_list
@@ -50,13 +50,8 @@
       items:
         - Scikit-learn
         - Pandas
-        - Jupyter
+        - Jupyter Notebook/Lab
         - Anaconda
-    - title: Database Management
-      items:
-        - Postgres
-        - MySQL/MariaDB
-        - SQL Server
     - title: Data visualization
       items:
         - Matplotlib
@@ -75,6 +70,12 @@
         - Virtualization – QEMU/KVM
         - Networking & Firewall
         - Web server – Apache httpd
+        - 'Programming Environments: Jupyter server, R, Stata, Python'
+    - title: Database Management
+      items:
+        - Postgres
+        - MySQL/MariaDB
+        - SQL Server
     - title: Health informatics
       items:
         - HL7 Health Information Exchange (HIE) standards
@@ -85,9 +86,10 @@
         - Scientific/Technical writing and publication
         - Conference presentation
         - Zotero
-    - title: Online learning
+    - title: Online Education Platforms & Tools
       items:
         - Blackboard Learn
+        - JupyterHub
     - title: Computer Driving
       items:
         - Microsoft Office
