@@ -11,27 +11,33 @@
   contents:
     - title: <abbr title="Doctor of Philosophy">PhD</abbr> in Health Services Research - Knowledge Discovery and Health Informatics
       institution: George Mason University, VA, USA
+      department: College of Public Health
       year: 2018 - 2024
-      description: "Academic advisor: Dr. Janusz Wojtusiak"
+      maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
       institution: George Mason University, VA, USA
+      department: College of Health and Human Services
       year: 2016 - 2018
 
     - title: <abbr title="Bachelor of Arts">BA</abbr> in Italian Language and Literature
-      institution:  University of Tehran, Iran
+      institution:  University of Tehran, Tehran, Iran
+      year: 1999 - 2004
 
 - title: Experience
   type: time_table
   contents:
     - title: System and Data Administrator
-      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+      institution: George Mason University, VA, USA
+      department: Deptartment of Health Administration and Policy
       year: 2016 - Now
     - title: Graduate Research Assistant
-      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+      institution: George Mason University, VA, USA
+      department: Deptartment of Health Administration and Policy
       year: 2016 - 2024
     - title: Teaching
-      institution: Dept. of Health Administration and Policy, <abbr title="George Mason University">GMU</abbr>
+      institution: George Mason University, VA, USA
+      department: Deptartment of Health Administration and Policy
       year: Spring ’19
       items:
         - Selected sections of <i>HAP 436 — Electronic Health Record Configuration and Data Analysis</i> course.
@@ -60,14 +66,15 @@
         - Python
         - SQL
         - Bash
-    - title: Operating systems & Server Management
+    - title: Operating systems
       items:
-        - title: Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
-          items:
-            - Apache, PHP
-            - "Virtualization: QEMU/KVM"
-            - Networking & Firewall
-        - title: Microsoft Windows
+        - Linux/Unix – RedHat Enterprise Linux (RHEL), CentOS
+        - Microsoft Windows
+    - title: Server Management
+        items:
+          - Virtualization – QEMU/KVM
+          - Networking & Firewall
+          - Web server – Apache httpd
     - title: Health informatics
       items:
         - HL7 Health Information Exchange (HIE) standards
