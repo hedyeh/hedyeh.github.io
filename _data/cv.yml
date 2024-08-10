@@ -13,7 +13,7 @@
       institution: George Mason University, VA, USA
       department: College of Public Health
       year: 2018 - 2024
-      maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
+      description: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
       institution: George Mason University, VA, USA
@@ -21,7 +21,7 @@
       year: 2016 - 2018
 
     - title: <abbr title="Bachelor of Arts">BA</abbr> in Italian Language and Literature
-      institution:  University of Tehran, Tehran, Iran
+      institution: University of Tehran, Tehran, Iran
       year: 1999 - 2004
 
 - title: Experience
