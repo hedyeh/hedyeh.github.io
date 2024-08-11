@@ -10,13 +10,13 @@
   type: time_table
   contents:
     - title: <abbr title="Doctor of Philosophy">PhD</abbr> in Health Services Research - Knowledge Discovery and Health Informatics
-      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, USA
       department: College of Public Health
       year: 2018 - 2024
       maindescription: "Academic advisor: Dr. Janusz Wojtusiak"
 
     - title: <abbr title="Master of Science">MSc</abbr> in Health Informatics
-      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, USA
       department: College of Health and Human Services
       year: 2016 - 2018
 
@@ -28,20 +28,18 @@
   type: time_table
   contents:
     - title: System and Data Administrator
-      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, USA
       department: Department of Health Administration and Policy
       year: 2016 - Now
     - title: Graduate Research Assistant
-      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, USA
       department: Department of Health Administration and Policy
       year: 2016 - 2024
     - title: Teaching
-      institution: George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      institution: George Mason University, <abbr title="Virginia">VA</abbr>, USA
       department: Department of Health Administration and Policy
       year: Spring ’19
-      items:
-        - Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a>.
-        - Material preparation for <a href="https://catalog.gmu.edu/courses/hap/#720" target="_blank">HAP 720 — Health Data Integration</a>.
+      maindescription: Selected sections of <a href="https://catalog.gmu.edu/courses/hap/#464" target="_blank">HAP 464 — Electronic Health Record Configuration and Data Analysis</a> and Material preparation for <a href="https://catalog.gmu.edu/courses/hap/#720" target="_blank">HAP 720 — Health Data Integration</a>.
 
 - title: Technical Knowledge / Skills
   type: nested_list
@@ -108,7 +106,7 @@
   contents:
     - title: Health Services Research for Scholarly Excellence and Impact Award
       year: Apr ’24
-      Description: by George Mason University, <abbr title="Virginia">VA</abbr>, <abbr title="United States of America">USA</a>
+      Description: by George Mason University, <abbr title="Virginia">VA</abbr>, USA
 
 - title: Languages
   type: list
