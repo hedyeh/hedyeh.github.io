@@ -4,16 +4,16 @@
       <div class="row">
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0" style="flex: none; max-width: none;">
           {% if content.title %}
-            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
               <h6 class="title font-weight-bold" style="margin-bottom: 0">
                 {{ content.title }}
               </h6>
               {% if content.year %}
-              <div>
-                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-                {{- content.year -}}
-                </span>
-              </div>
+                <div>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                    {{- content.year -}}
+                  </span>
+                </div>
               {% endif %}
             </div>
           {% endif %}
@@ -88,9 +88,15 @@
                 {% if item.link %}
                   <div class="container-link-button">
                     {% if item.linkname %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
+                      <a
+                        href="{{ item.link }}"
+                        target="_blank"
+                        class="btncv z-depth-0">{{ item.linkname }}</a>
                     {% else %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                      <a
+                        href="{{ item.link }}"
+                        target="_blank"
+                        class="btncv z-depth-0">doc</a>
                     {% endif %}
                   </div>
                 {% endif %}
@@ -99,10 +105,10 @@
           {% endif %}
         </div>
         {% if content.location %}
-        <p class="location">
-          <i class="fa-solid fa-location-dot iconlocation"></i>
-          {{ content.location }}
-        </p>
+          <p class="location">
+            <i class="fa-solid fa-location-dot iconlocation"></i>
+            {{ content.location }}
+          </p>
         {% endif %}
       </div>
     </li>
