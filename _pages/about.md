@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-<h2>Hi there!</h2>
+<h2>About me</h2>
 
 Currently, being a graduating PhD candidate at <abbr title="Department of Health Administration and Policy">HAP</abbr>, <abbr title="George Mason University">GMU</abbr>, and living in Fairfax, VA,
 
