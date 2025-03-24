@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Health Informatician
+subtitle: Assistant Professor<br>Health Informatician
 
 profile:
   align: right
